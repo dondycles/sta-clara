@@ -5,6 +5,7 @@ import Nav from "./Nav";
 const poppins = Poppins({
   weight: ["400", "800"],
   variable: "--font-poppins",
+  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
